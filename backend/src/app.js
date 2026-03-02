@@ -10,6 +10,7 @@ const semesterRoutes = require("./routes/semesterRoutes");
 const subjectRoutes = require("./routes/subjectRoutes");
 const unitRoutes = require("./routes/unitRoutes");
 const noteRoutes = require("./routes/noteRoutes");
+// const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 
@@ -29,7 +30,7 @@ app.use("/api/subjects", subjectRoutes);
 app.use("/api/units", unitRoutes);
 app.use("/api/notes", noteRoutes);
 app.use("/uploads", express.static("uploads"));
-
+// app.use("/api/users", userRoutes);
 
 app.get("/", (req, res) => {
   res.send("Backend is working");
