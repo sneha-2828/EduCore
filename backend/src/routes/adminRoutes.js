@@ -15,6 +15,7 @@ const {
   rejectFaculty,
 } = require("../controllers/adminController");
 
+
 const {
   authMiddleware,
   roleMiddleware,
