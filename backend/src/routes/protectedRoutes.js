@@ -5,6 +5,7 @@ const {
   roleMiddleware,
 } = require("../middleware/authMiddleware");
 
+
 router.get(
   "/student",
   authMiddleware,
