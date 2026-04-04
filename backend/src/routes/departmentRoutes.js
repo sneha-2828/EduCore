@@ -33,6 +33,7 @@ router.get("/", authMiddleware, getDepartments);
 // ===============================
 // Delete Department (Admin)
 // ===============================
+
 router.delete(
   "/:id",
   authMiddleware,
