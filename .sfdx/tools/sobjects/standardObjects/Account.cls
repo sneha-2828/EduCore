@@ -6,6 +6,7 @@
 // To edit your sObjects and their fields, edit the corresponding
 //     .object-meta.xml and .field-meta.xml files.
 
+
 global class Account {
     global Id Id;
     global Boolean IsDeleted;
