@@ -6,6 +6,7 @@ const {
   roleMiddleware,
 } = require("../middleware/authMiddleware");
 
+
 router.post("/", authMiddleware, roleMiddleware(["admin"]), createSemester);
 
 module.exports = router;
