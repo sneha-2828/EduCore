@@ -24,3 +24,4 @@
 //   getAllFaculty,
 // );
 // module.exports = router;
+
