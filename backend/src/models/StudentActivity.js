@@ -11,6 +11,7 @@ const studentActivitySchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Subject",
     },
+    
     type: {
       type: String,
       enum: ["note_view", "exam_start", "exam_submit"],
