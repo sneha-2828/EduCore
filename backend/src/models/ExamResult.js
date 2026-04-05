@@ -12,6 +12,7 @@ const examResultSchema = new mongoose.Schema(
       ref: "Subject",
       required: true,
     },
+    
     score: {
       type: Number,
       required: true,
