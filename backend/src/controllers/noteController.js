@@ -17,6 +17,7 @@ exports.uploadNote = async (req, res) => {
     if (!req.file) {
       return res.status(400).json({ message: "PDF file required" });
     }
+    
 
     if (!subject || !unit || !title) {
       return res.status(400).json({ message: "Missing required fields" });
