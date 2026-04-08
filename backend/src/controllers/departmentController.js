@@ -13,6 +13,7 @@ exports.createDepartment = async (req, res) => {
       return res.status(400).json({
         message: "Name and Code are required",
       });
+      
     }
 
     
