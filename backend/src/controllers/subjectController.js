@@ -13,8 +13,6 @@ exports.createSubject = async (req, res) => {
       payload.faculty = faculty._id;
     }
     
-
-    
     const sub = await Subject.create(payload);
     res.status(201).json(sub);
   } catch (error) {
