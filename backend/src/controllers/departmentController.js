@@ -16,6 +16,7 @@ exports.createDepartment = async (req, res) => {
     }
 
     
+    
     // Prevent duplicate department
     const existing = await Department.findOne({ code });
 
