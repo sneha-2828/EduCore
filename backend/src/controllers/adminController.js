@@ -9,6 +9,7 @@ const bcrypt = require("bcryptjs");
 // ===============================
 // Get All Users
 // ===============================
+
 exports.getAllUsers = async (req, res) => {
   try {
     const users = await User.find().sort({ createdAt: -1 });
