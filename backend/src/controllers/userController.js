@@ -12,6 +12,7 @@
 //     }
 
 
+
 //     const hashedPassword = await bcrypt.hash(password, 10);
 
 //     const faculty = await User.create({
