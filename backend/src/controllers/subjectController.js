@@ -14,6 +14,7 @@ exports.createSubject = async (req, res) => {
     }
     
 
+    
     const sub = await Subject.create(payload);
     res.status(201).json(sub);
   } catch (error) {
