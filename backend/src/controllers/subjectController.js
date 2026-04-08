@@ -12,6 +12,7 @@ exports.createSubject = async (req, res) => {
       }
       payload.faculty = faculty._id;
     }
+
     
     
     const sub = await Subject.create(payload);
