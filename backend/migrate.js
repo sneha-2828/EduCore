@@ -8,6 +8,7 @@ async function migrate() {
     await mongoose.connect(process.env.MONGO_URI);
 
     
+    
     const faculties = await User.find({ role: "faculty", facultyId: { $exists: false } });
     console.log(`Found ${faculties.length} faculty users without IDs. Migrating...`);
     
