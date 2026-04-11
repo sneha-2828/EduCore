@@ -6,6 +6,7 @@ const Department = require("../models/Department");
 console.log("Admin routes loaded");
 const bcrypt = require("bcryptjs");
 
+
 // ===============================
 // Get All Users
 // ===============================
