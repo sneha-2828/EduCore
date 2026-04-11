@@ -5,3 +5,4 @@ exports.createSemester = async (req, res) => {
   res.json(sem);
 };
 
+
