@@ -11,7 +11,6 @@ const {
   roleMiddleware,
 } = require("../middleware/authMiddleware");
 
-
 router.post("/", authMiddleware, roleMiddleware(["admin"]), createSubject);
 router.get("/", authMiddleware, getAllSubjects);
 router.delete(
