@@ -15,4 +15,3 @@ router.post("/", authMiddleware, roleMiddleware(["admin"]), createUnit);
 router.get("/", authMiddleware, getUnits);
 
 module.exports = router;
-
