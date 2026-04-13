@@ -10,7 +10,6 @@
 //   authMiddleware,
 //   roleMiddleware,
 // } = require("../middleware/authMiddleware");
-
 // router.post(
 //   "/faculty",
 //   authMiddleware,
