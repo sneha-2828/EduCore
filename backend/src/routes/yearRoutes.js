@@ -11,4 +11,3 @@ const {
 router.post("/", authMiddleware, roleMiddleware(["admin"]), createYear);
 
 module.exports = router;
-
