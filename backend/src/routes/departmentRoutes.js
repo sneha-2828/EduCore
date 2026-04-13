@@ -9,7 +9,6 @@ const {
   deleteDepartment,
 } = require("../controllers/departmentController");
 
-
 const {
   authMiddleware,
   roleMiddleware,
